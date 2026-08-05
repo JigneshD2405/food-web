@@ -1,8 +1,9 @@
+// Banner Images
 export { default as EatingImg } from "./eating.jpg";
 export { default as HeroImg } from "./hero.png";
+export { default as OmniFoodLogo } from "./omnifood-logo.png";
 
 // Customer Images
-
 export { default as Customer1 } from "./customers/customer-1.jpg";
 export { default as Customer2 } from "./customers/customer-2.jpg";
 export { default as Customer3 } from "./customers/customer-3.jpg";
