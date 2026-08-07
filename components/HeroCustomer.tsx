@@ -44,13 +44,12 @@ function HeroCustomer() {
             key={ele.alt}
             src={ele.src}
             alt={ele.alt}
-            className="h-12 w-12 rounded-[50%] -mt-4 border-3 border-s-tints last:mr-0"
+            className="h-12 w-12 rounded-[50%] -mr-4 border-3 border-s-tints last:mr-0"
           />
         ))}
       </div>
       <p className="text-[1.8rem] font-semibold">
-        <span className="text-primary font-bold">250,000+</span> meals last
-        year!
+        <span className="text-shades font-bold">250,000+</span> meals last year!
       </p>
     </div>
   );
