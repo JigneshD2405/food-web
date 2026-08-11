@@ -14,8 +14,12 @@
       - Line Weight
       Default:1
       Small : 1.05
+      Medium:1.2
       Paragraph Default 1.6
 
+      - Letter Spacing
+        -0.5px
+        0.75px
 
 --- 02 COLORS
       - Primary: #e67e22
@@ -36,12 +40,6 @@
 */
 
 @theme {
-  --spacing: 0.4rem;
-  --color-primary: #e67e22;
-  --color-tints: #fdf2e9;
-  --color-shades: #cf711f;
-  --color-grey-light: #555;
-  --color-grey-dark: #333;
 }
 
 /* 
@@ -71,63 +69,4 @@
 }
 
 @layer components {
-  .link-btn {
-    display: inline-block;
-    font-size: 2rem;
-    border-radius: 9px;
-    padding: 1.6rem 3.2rem;
-    text-decoration: none;
-    font-weight: 600;
-
-    transition: background-color 0.3s;
-  }
 }
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--color-tints);
-  height: 9.6rem;
-  padding: 0 4.8rem;
-}
-
-.logo {
-  height: 2.4rem !important;
-}
-
-/* .main-nav-list {
-  display: flex;
-  align-items: center;
-  gap: 3.2rem;
-}
-.main-nav {
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: var(--color-grey-dark);
-  font-weight: 500;
-  font-size: 1.8rem;
-  transition: all 0.3s;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: var(--color-shades);
-}
-
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
-  border-radius: 9px;
-  color: #fff;
-  background-color: var(--color-primary);
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: var(--color-shades);
-} */
