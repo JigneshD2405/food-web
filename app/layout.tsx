@@ -5,6 +5,7 @@ import "./globals.css";
 const rubik = Rubik({
   subsets: ["latin"],
   variable: "--font-rubik",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {

@@ -54,6 +54,10 @@
 
   /* ---------- 07 SPACING ---------- */
   --spacing: 0.1rem; /* p-{n} now equals n pixels, e.g. p-16 = 16px */
+
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
 }
 
 /* 
