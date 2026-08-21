@@ -22,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`h-full antialiased`}>
-      <body className={`${rubik.variable}`}>{children}</body>
+      <body className={`${rubik.variable}  ${rubik.className}`}>
+        {children}
+      </body>
     </html>
   );
 }
